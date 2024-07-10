@@ -521,3 +521,47 @@ main{
     text-align: center;
     cursor: pointer;
 }
+
+/* footer section design */
+
+.footer_section{
+    /* width: 1440px; */
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+}
+.footer_container{
+    width: 1140px;
+    height: 36px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 32px;
+}
+.footer_container p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.links ul{
+    width: 100%;
+    display: flex;
+    gap: 24px;
+}
+.links ul li{
+    list-style: none;
+}
+.links ul li a{
+    text-decoration: none;
+}
+.links ul li a img{
+    width: 37.01px;
+    height: auto;
+}
